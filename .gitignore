@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and large artifacts
+data/
+checkpoints/*.pt
+checkpoints/*.pth
+*.pt
+*.pth
+*.onnx
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local env
+.env
+
+# Course handout — do not publish
+AIassign1.pdf

@@ -1,0 +1,21 @@
+seed: 42
+device: auto
+
+data:
+  root: data
+  batch_size: 128
+  val_ratio: 0.1
+  num_workers: 0
+
+model:
+  name: starnet_s1
+  num_classes: 10
+  stem_stride: 1
+  drop_path_rate: 0.0
+
+train:
+  epochs: 80
+  lr: 0.003
+  weight_decay: 0.05
+  warmup_epochs: 5
+  label_smoothing: 0.1
