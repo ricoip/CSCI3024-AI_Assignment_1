@@ -1,0 +1,15 @@
+{
+  "model": "starnet_s1",
+  "device": "mps",
+  "params": 2674730,
+  "flops_macs": 34425216,
+  "epochs": 80,
+  "batch_size": 128,
+  "lr": 0.003,
+  "best_val_acc": 0.894140625,
+  "last_test_acc": 0.8885482594936709,
+  "best_ckpt_test_acc": 0.887559335443038,
+  "best_ckpt_test_loss": 0.841342234913307,
+  "history_csv": "/Users/rico/Developer/PatternRecognition/hw01/results/starnet_s1/history.csv",
+  "best_checkpoint": "/Users/rico/Developer/PatternRecognition/hw01/checkpoints/starnet_s1_best.pt"
+}
