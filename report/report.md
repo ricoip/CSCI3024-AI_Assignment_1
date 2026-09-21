@@ -1,10 +1,9 @@
-# CISC3024 Pattern Recognition — AI Assignment 1
+# Pattern Recognition — AI Assignment 1
 
-**Student:** Rico Ip (UC32505)
-**Course:** CISC3024 Pattern Recognition, University of Macau
-**Date:** September 2026
-**Algorithm:** StarNet (Ma et al., CVPR 2024)
-**Task:** CIFAR-10 image classification
+**Student:** Rico Ip  
+**Date:** September 2026  
+**Algorithm:** StarNet (Ma et al., CVPR 2024)  
+**Task:** CIFAR-10 image classification  
 
 ---
 
@@ -25,7 +24,7 @@ The work was done in Grok Build (xAI), in the local folder `hw01`. The sequence 
 5. **Write the code.** The agent implemented StarNet from the official `starnet.py`, a sum ablation (SumNet), a CIFAR-adapted ResNet-18, training/eval scripts, and a 2D moons visualization. The student did not edit source files.
 6. **Train.** Three 80-epoch runs on CIFAR-10, then test evaluation and plots.
 7. **Write this report** from the logs in `results/`, not from the paper’s ImageNet numbers.
-8. **Git.** `git init`, ignore `AIassign1.pdf`, first commit of the source after git config was set by the student (`Rico Ip <uc32505@connect.um.edu.mo>`).
+8. **Git.** `git init`, ignore `AIassign1.pdf`, first commit of the source after git config was set by the student.
 
 No code in `src/` was typed by the student.
 

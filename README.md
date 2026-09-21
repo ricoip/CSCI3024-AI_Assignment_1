@@ -1,8 +1,27 @@
-# CISC3024 AI Assignment 1 — StarNet on CIFAR-10
+> [!IMPORTANT]  
+> *This section is written by a human.*  
+> Welcome to this repository. At the request of my lecturer, this assignment is 
+> written **completely with a generative AI agent**, i.e. this is completely
+> vibe-coded with zero human intervention and/or audit. 
+>
+> Please take every single commit up to 
+> [8661be8f](https://github.com/ricoip/CSCI3024-AI_Assignment_1/commit/8661be8f46b689e71738da872878ef811de755dc)
+> with a mountain of salt, and do NOT run any code without first auditing it. If 
+> you decide to continue, I will not be responsible for the output of any 
+> experiments originating from this code.
+> 
+> If you want to learn more about StarNet, please read the paper or visit the 
+> official repository. Links below.
+>
+> This code is licensed under [Apache License, Version 2.0](./LICENSE).
+>
+> Now, onto what the agent wrote (with some formatting fixes):
+
+# AI Assignment 1 — StarNet on CIFAR-10
 
 Reproduction of **StarNet** from Ma et al., *Rewrite the Stars* (CVPR 2024), applied to CIFAR-10 image classification. The same architecture with the star operation replaced by summation (**SumNet**) and a CIFAR-adapted **ResNet-18** are trained as controls.
 
-Paper: https://arxiv.org/abs/2403.19967
+Paper: https://arxiv.org/abs/2403.19967  
 Official code: https://github.com/ma-xu/Rewrite-the-Stars
 
 The student did not write this code. It was produced by an AI agent for the assignment.
